@@ -45,7 +45,7 @@ this.props.updateStudent({id:id,name:name,grade:grade,school:school});
   </div>
   <div className="card-body">
   <table className="table table-hover">
-          <thead className="thead-dark"><tr><th>Name</th><th>Class</th><th>School</th><th>Edit/Save</th><th>Delete</th></tr></thead>
+          <thead className="thead-dark"><tr><th>Name</th><th>Grade</th><th>School</th><th>Edit/Save</th><th>Delete</th></tr></thead>
           <StudentList deleteStudent={this.deleteStudent} studentList={this.props.studentList} editStudentSubmit={this.editStudentSubmit}/>
         </table>
         <button className="btn btn-dark pull-left" onClick={this.addNewStudent}>Add New</button>

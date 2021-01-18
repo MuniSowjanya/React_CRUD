@@ -7,8 +7,8 @@ import {createStore} from 'redux';
 import studentReducer from './reducers/studentReducer';
 import {Provider} from 'react-redux'
 
-let initialState = [{id:1,name:'Muni',grade:1,school:'React_Redux School'},{id:2,name:'Sowjanya',grade:2,school:'Redux School'}
-,{id:3,name:'Nandini',grade:3,school:'React School'},{id:4,name:'Mokshit',grade:4,school:'React_Redux School'}];
+let initialState = [{id:1,name:'John Doe',grade:1,school:'React Redux School'},{id:2,name:'Jane Doe',grade:2,school:'React Redux School'}
+,{id:3,name:'Terry Adams',grade:3,school:'React Redux School'},{id:4,name:'Jenny Smith',grade:4,school:'React Redux School'}];
 
 if( localStorage.getItem("students") === null)
 localStorage.setItem('students',JSON.stringify(initialState));
